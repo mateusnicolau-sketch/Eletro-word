@@ -1,0 +1,11 @@
+:root{
+    --azul-coisado: #134074ff;
+--azul-mais-coisado: #13315cff;
+--azulingles: #0b2545ff;
+--jinx: #8da9c4ff;
+--creme-de-menta: #eef4edff;
+}
+
+body{
+    background-color: var(--jinx);
+}
