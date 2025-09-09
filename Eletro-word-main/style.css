@@ -1,0 +1,17 @@
+@import url('https://fonts.googleapis.com/css2?family=Audiowide&family=Space+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+:root{
+    --azul-coisado: #134074ff;
+--azul-mais-coisado: #13315cff;
+--azulingles: #0b2545ff;
+--jinx: #8da9c4ff;
+--creme-de-menta: rgb(171, 201, 166);
+--branco: #F6F1E9;
+--preto: #000000;
+--titulo: "Audiowide", sans-serif;
+--texto:"Space Mono", monospace;
+}
+
+body{
+    background-color: var(--jinx);
+    font-family: var(--texto);}
