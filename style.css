@@ -5,7 +5,7 @@
 --azul-mais-coisado: #13315cff;
 --azulingles: #0b2545ff;
 --jinx: #8da9c4ff;
---creme-de-menta: rgb(171, 201, 166);
+--creme-de-menta: #abc9a6;
 --branco: #F6F1E9;
 --preto: #000000;
 --titulo: "Audiowide", sans-serif;
@@ -14,4 +14,44 @@
 
 body{
     background-color: var(--jinx);
-    font-family: var(--texto);}
+    font-family: var(--texto);
+    margin: 0px;
+} 
+    
+    header{
+        background-color: var(--creme-de-menta);
+        display: flex;
+        justify-content: space-around;
+        padding: 10px;
+        align-items: center;
+        
+    }
+
+
+    .menu a{
+        text-decoration: none;
+
+
+    }
+
+    .menu a:hover{
+color: var(--preto);
+    }
+
+
+    .capa{
+        width:100%;
+        height:auto;
+        display:flex;
+        justify-content:center;
+        align-items:center
+    }
+
+
+    .capa img{
+
+        width: 100%;
+        height: auto;
+        display:block;
+        object-fit: cover;
+    }
