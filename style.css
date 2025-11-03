@@ -161,6 +161,7 @@ footer{
 
 .serviço p{
     font-family: var(--titulo);
+    color: var(--jinx);
 }
 
 .serviço h3{
