@@ -147,7 +147,7 @@ footer{
  
     
 
-.serviços{
+.serviço{
     background-color: var(--azulingles);
     width: 27%;
     padding: 20px;
@@ -171,7 +171,7 @@ footer{
 .serviço button{
     padding: 10px 24px;
     font-family: var(--texto);
-    color: var(--jinx);
+    background-color: var(--jinx);
     border: none;
     border-radius: 12px;
 }
