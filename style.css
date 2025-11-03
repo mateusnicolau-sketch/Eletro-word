@@ -134,20 +134,20 @@ footer{
     text-align: center; 
 }
 
-.serviços h2{
+.serviço h2{
     font-family: var(--titulo);
     font-size: 80px 0;
-    color: var(--creme-de-menta);
-    margin: 40px 0;
 }
-.lista-serviços{ 
+.lista-serviços{
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
     gap: 20px;
-
 }
-serviço{
+ 
+    
+
+.serviços{
     background-color: var(--azulingles);
     width: 27%;
     padding: 20px;
@@ -157,4 +157,25 @@ serviço{
 .serviço img{
     width: 100%;
     border-radius: 10px;
+}
+
+.serviço p{
+    font-family: var(--titulo);
+}
+
+.serviço h3{
+    font-family: var(--titulo);
+    color: var(--creme-de-menta);
+}
+
+.serviço button{
+    padding: 10px 24px;
+    font-family: var(--texto);
+    color: var(--jinx);
+    border: none;
+    border-radius: 12px;
+}
+
+.serviço button:hover {
+    background-color: var(--creme-de-menta);
 }
